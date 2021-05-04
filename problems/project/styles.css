@@ -1,0 +1,102 @@
+.resume_left {
+	width:100px;
+	background-color:1c2833;
+	padding-right: 10px;
+}
+img {
+	margin-top: 20px;
+	width:170px;
+}
+.resume_image{
+	margin-top: 25px;
+	position: relative;
+	left: 30px;
+	width:200px;
+	background-color: #3385ff;
+	color:white;
+	text-align:center;
+
+}
+
+
+.resume_item:last-child{
+	border-bottom:0px;
+}
+.resume_left ul li{
+	display:flex;
+	align-items:center;
+	margin-bottom:10px;
+}
+.resume_skills ul li{
+	color:#b1eaff;
+	justify-content:space-between;
+}
+.skill_name {
+	color:white;
+	width:25%;
+}
+.resume_wrapper {
+	display:flex;
+	width:1000px;
+	margin:50px auto;
+	padding: 10px;
+	background: black;
+	font-size: 13px;
+}
+.resume_wrapper .resume_left{
+	width:35%;
+}
+.int_data {
+	color:white;
+}
+.resume_right {
+	padding-left: 30px;
+	background-color: grey;
+}
+#one {
+	font-size: 14px;
+	font-weight:  bold;
+	margin-bottom:0;
+}
+#two {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom:0;
+}
+#three {
+	margin-top: 0;
+}
+progress {
+	height:5px;
+	width: 80px;
+}
+.resume_training h3{
+	padding-bottom: -15px;
+}
+.resume_trainwrapper{
+	margin-top: -15px;
+	display:flex;
+	width:700px;
+	background: #fff;
+}
+.resume_trainright{
+	margin-left: 100px;
+	padding-bottom: 0;
+}
+.resume_trainleft{
+	padding-bottom: 0;
+	margin-bottom: -10px;
+}
+.resume_refright{
+	margin-left: 140px;
+	padding-bottom: 0;
+}
+.text-piped span:after {
+  content: "|";
+  margin: 0 10px;
+}
+.text-piped span:last-child:after {
+  content: '';
+  margin: 0 10px;
+}

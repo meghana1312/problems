@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<title>Add pipe separator between items using CSS</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+<style type="text/css">
+.piped span {
+  border-left: 1px solid #ccc;
+  padding: 0 10px;
+}
+.piped span:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.text-piped span:after {
+  content: "|";
+  margin: 0 10px;
+}
+.text-piped span:last-child:after {
+  content: '';
+  margin: 0 10px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="container">
+    <h1 class="col-lg-9">Add pipe separator between items using CSS</h1>
+    </div>
+  </header>
+  <div class="container">
+    <h5>Author: Julian Hansen, November 2016</h5>
+<div class="piped">
+    <span>One</span> <span>Two</span> <span>Three</span>
+  </div>
+  <div class="text-piped">
+    <span>One</span> <span>Two</span> <span>Three</span>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="container">
+    Copyright Julian Hansen &copy; 2016
+  </div>
+</footer>
+ 
+<script src="http://code.jquery.com/jquery.js"></script>
+ 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+</script>
+</body>
+</html>
